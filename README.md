@@ -6,8 +6,7 @@ NixOS configuration; Dotfiles Hyprland
 git clone https://github.com/StasLavr/NixOS-Conf.git
 mv nixos-config $HOME/nix # Config is supposed to be in the ~/nix directory
 cd $HOME/nix
-sudo nixos-rebuild switch --flake .
-home-manager switch --flake .
+sudo nixos-rebuild switch --flake .#NixOS
 ```
 
 ![1713934316_grim](https://github.com/StasLavr/NixOS-Conf/assets/110830098/a947a4ed-e15c-48f3-8fdc-9bf515375a34)
