@@ -20,6 +20,7 @@
     nix-output-monitor
     nvd
     lutgen
+    docker-compose
     # GUI Apps
     
     # IDE #
@@ -32,7 +33,6 @@
     # WM #
     rofi-wayland
     firefox
-    pgadmin4-desktopmode
     wlogout
     nwg-drawer
     grim
@@ -45,7 +45,6 @@
     kitty
     
     # Programs #
-    firefox
     telegram-desktop
     mangohud
     glib
@@ -60,7 +59,7 @@
     upscayl
     qbittorrent
     thunderbird
-    prismlauncher-qt5
+    prismlauncher
     
     # Libs & Order
     mangohud

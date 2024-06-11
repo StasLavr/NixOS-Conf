@@ -101,10 +101,6 @@
 	        excludeFileNames = ["alpha"];
 	        icons = {
 	          button = " ";
-	          diagnostics = {
-	            error.enable = false;
-	            hint.enable = true;
-	          };
 	          separator = {
 	            left = " ";
 	            right = "";
@@ -113,9 +109,6 @@
 	            enable = true;
 	            customColors = true;
 	          };
-	          modified.button = "●";
-	          pinned.button = "";
-	          inactive.button = " ";
 	        };
 	        maximumPadding = 1;
 	        minimumPadding = 1;

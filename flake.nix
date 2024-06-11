@@ -2,7 +2,7 @@
   description = "Nix config by Lavr";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-24.05";
     
     nixvim = {
     url = "github:nix-community/nixvim";
@@ -42,6 +42,7 @@
 
       homeConfigurations.lavr = home-manager.lib.homeManagerConfiguration {
       pkgs = nixpkgs.legacyPackages.${system};
+      extraSpecialArgs = { inherit inputs; };
       modules = [ ./home.nix ];
     };
 

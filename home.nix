@@ -12,7 +12,7 @@
   gtk = {
     enable = true;
     iconTheme.name = "Tokyonight-Dark";
-    font.name = "JetBrainsMono Nerd Font 9";
+    font.name = "Roboto 9";
     theme = {
       package = pkgs.tokyonight-gtk-theme;
       name = "Tokyonight-Storm-BL-LB";

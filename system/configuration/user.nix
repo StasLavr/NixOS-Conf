@@ -14,7 +14,7 @@
   users.users.lavr = {
     description = "Lavr";
     isNormalUser = true;
-    extraGroups = [ "wheel" "networkmanager" ]; # Enable ‘sudo’ for the user.
+    extraGroups = [ "wheel" "docker" "networkmanager" ]; # Enable ‘sudo’ for the user.
     packages = with pkgs; [
     ];
   };
