@@ -12,17 +12,13 @@
     fastfetch
     unzip
     python3
-    brightnessctl
-    libnotify
     nodejs
-    ranger
     nh
     nix-output-monitor
     nvd
     lutgen
     docker-compose
     # GUI Apps
-    
     # IDE #
     vscode
     sqlitebrowser
@@ -30,31 +26,15 @@
     qemu
     virt-manager
     
-    # WM #
-    rofi-wayland
-    firefox
-    wlogout
-    nwg-drawer
-    grim
-    mpv
-    networkmanagerapplet
-    waypaper
-    swaybg
-    waybar
-    qt5ct
-    kitty
-    
     # Programs #
     telegram-desktop
+    firefox
     mangohud
     glib
-    heroic
     goverlay
     libreoffice
-    kdenlive
+    heroic
     gimp
-    gwenview
-    ark
     keepassxc
     upscayl
     qbittorrent
@@ -74,11 +54,4 @@
     # Cell Packags #
     # (callPackage ../pkgs/sddm-theme/default.nix { }) 
   ];
-   # Thunar #
-   programs.thunar.enable = true;
-   services.tumbler.enable = true;
-   programs.thunar.plugins = with pkgs.xfce; [
-   thunar-archive-plugin
-   thunar-volman
-];
 }

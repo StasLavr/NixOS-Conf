@@ -18,6 +18,8 @@
       ./configuration/sound.nix
       ./configuration/user.nix
       ./configuration/xserver.nix
+      ./configuration/sddm/sddm.nix
+    #  ./configuration/gnome.nix
     ];
  
 }

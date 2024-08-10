@@ -7,8 +7,7 @@
   ];
   services.gvfs.enable = true;
   services.udisks2.enable = true;
-  services.xserver.displayManager.gdm.enable = true;
-  programs.hyprland.enable = true;
+  services.xserver.desktopManager.plasma6.enable = true;
   programs.dconf.enable = true;
   hardware.opengl.driSupport32Bit = true;
   hardware.opengl.driSupport = true;

@@ -1,10 +1,15 @@
 { inputs, config, pkgs, ... }:
 {
+  # ADB # 
+  programs.adb.enable = true;
+  users.users.lavr.extraGroups = ["adbusers"];
   # Virtal #
   virtualisation.libvirtd.enable = true;
   virtualisation.docker.enable = true;
   virtualisation.docker.enableNvidia = true;
-  # OpenSSH #
+  virtualisation.virtualbox.host.enable = true;
+  users.extraGroups.vboxusers.members = [ "lavr" ];
+  # OpenSSH # 
   services.openssh.enable = true;
   # Steam #
   nixpkgs.config.allowUnfree = true;

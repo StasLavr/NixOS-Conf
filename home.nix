@@ -7,28 +7,19 @@
   home.username = "lavr";
   home.homeDirectory = "/home/lavr";
   home.stateVersion = "24.05";
-
-  # GTK #
-  gtk = {
-    enable = true;
-    iconTheme.name = "Tokyonight-Dark";
-    font.name = "Roboto 9";
-    theme = {
-      package = pkgs.tokyonight-gtk-theme;
-      name = "Tokyonight-Storm-BL-LB";
-      };
- };
- # Let Home Manager install and manage itself.``
+ # GTK #
+#  gtk = {
+#   enable = true;
+#    iconTheme.name = "Yaru-blue";
+#    font.name = "Roboto 9";
+#   theme = {
+#      package = pkgs.yaru-theme;
+#      name = "Yaru-blue-dark";
+#      };
+# };
   programs.home-manager.enable = true;
   imports = [
     inputs.ags.homeManagerModules.default
-    ./home/wm/hypr
     ./home/program/neovim
-    ./home/wm/waybar
-    ./home/wm/kitty
-    ./home/wm/dunst
-    ./home/wm/wlogout
-    ./home/wm/nwg-drawer
-    ./home/wm/rofi
   ];
 }

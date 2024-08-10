@@ -1,5 +1,7 @@
 ![nixos-white](https://github.com/StasLavr/NixOS-Conf/assets/110830098/eb4d66a8-1e6c-4173-a09a-10b7ff26762c)
+
 # NixOS-Conf
+
 NixOS configuration; Dotfiles Hyprland
 
 ```bash
@@ -15,21 +17,19 @@ sudo nixos-rebuild switch --flake .#NixOS
 
 The `home.nix` file contains details about all the software I use, but here's a shout-out to the ones I use the most and that are customized to my needs.
 
-| Type           | Program      |
-| :------------- | :----------: |
+| Type           |          Program           |
+|:---------------|:--------------------------:|
 | Editor         | Visual Studio Code, NeoVim |
-| Launcher       | Rofi |
-| Shell          | Fish |
-| Status Bar     | Waybar |
-| Terminal       | Kitty |
-| Window Manager | Hyprland |
+| Launcher       |            Rofi            |
+| Shell          |            Fish            |
+| Status Bar     |           Waybar           |
+| Terminal       |           Kitty            |
+| Window Manager |          Hyprland          |
 
 ## Themes
 
-| Type           | Name      |
-| :------------- | :----------: |
+| Type           |          Name           |
+|:---------------|:-----------------------:|
 | GTK Theme      | Tokyonight-Storm-BL-LB  |
-| GTK Icon Theme | Tokyonight-Dark |
+| GTK Icon Theme |     Tokyonight-Dark     |
 | Terminal Font  | JetBrainsMono Nerd Font |
-
-
