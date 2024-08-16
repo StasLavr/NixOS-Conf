@@ -15,6 +15,8 @@
     brightnessctl
     libnotify
     nodejs
+    gcc
+    go
     ranger
     nh
     nix-output-monitor

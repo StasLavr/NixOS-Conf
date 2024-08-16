@@ -11,8 +11,12 @@
   # GTK #
   gtk = {
     enable = true;
-    iconTheme.name = "Tokyonight-Dark";
-    font.name = "Roboto 9";
+    iconTheme = {
+      package = pkgs.flat-remix-icon-theme;
+      name = "Flat-Remix-Blue-Dark";
+    };
+    font.name = "Roboto";
+    font.size = 9;
     theme = {
       package = pkgs.tokyonight-gtk-theme;
       name = "Tokyonight-Storm-BL-LB";
@@ -23,12 +27,10 @@
   imports = [
     inputs.ags.homeManagerModules.default
     ./home/wm/hypr
-    ./home/program/neovim
     ./home/wm/waybar
     ./home/wm/kitty
     ./home/wm/dunst
     ./home/wm/wlogout
-    ./home/wm/nwg-drawer
     ./home/wm/rofi
   ];
 }

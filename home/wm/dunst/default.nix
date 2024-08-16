@@ -53,7 +53,7 @@
         mouse_left_click = "close_current";
         mouse_middle_click = "do_action, close_current";
         mouse_right_click = "close_all";
-        icon_theme = "Tokyonight-Dark";
+        icon_theme = "Flat-Remix-Blue-Dark";
         enable_recursive_icon_lookup = true;
         font = "JetBrainsMono Nerd Font 9";
       };
