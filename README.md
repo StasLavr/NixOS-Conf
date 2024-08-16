@@ -17,7 +17,7 @@ The `home.nix` file contains details about all the software I use, but here's a 
 
 | Type           | Program      |
 | :------------- | :----------: |
-| Editor         | Visual Studio Code, NeoVim |
+| Editor         | Visual Studio Code |
 | Launcher       | Rofi |
 | Shell          | Fish |
 | Status Bar     | Waybar |
@@ -29,7 +29,7 @@ The `home.nix` file contains details about all the software I use, but here's a 
 | Type           | Name      |
 | :------------- | :----------: |
 | GTK Theme      | Tokyonight-Storm-BL-LB  |
-| GTK Icon Theme | Tokyonight-Dark |
+| GTK Icon Theme | Flat-Remix-Blue-Dark |
 | Terminal Font  | JetBrainsMono Nerd Font |
 
 
